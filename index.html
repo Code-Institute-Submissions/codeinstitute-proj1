@@ -17,15 +17,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Raleway&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="main.css">
     <script src="https://use.fontawesome.com/987b603d4f.js"></script>
 </head>
 
 <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand brand-logo" href="#">RoomTribe</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand brand-logo-home" href="#">RoomTribe</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,26 +34,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#how-it-works">How It Works</a>
+                    <a class="nav-link" href="index.html#how-it-work" >How It Works</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#why-it-works">Why It Works</a>
+                    <a class="nav-link" href="index.html#why-it-work" >Why It Works</a>
                 </li>
             </ul>
-            <ul class="navbar-nav mr-auto">
-
-            </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Email" aria-label="Email">
-                <button class="btn btn-primary my-2 my-sm-0" type="submit">Join Beta Now</button>
+                <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="email">
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">Join Beta</button>
             </form>
         </div>
     </nav>
 
+
+
     <!--Hero Section-->
-    <div class="jumbotron text-center" style="background-color: #DEF2B3;">
-        <h1 class="display-4 main-title-text">Find Your Perfect Roommate Now</h1>
-        <p class="lead main-body-text">Find someone that fits your home-sharing personality</p>
+    <div class="jumbotron text-center hero-section">
+        <h1 class="display-4 main-title-text" style="color:white;">Find Your Perfect Roommate Now</h1>
+        <p class="lead main-body-text" style="color:white;">Find someone that fits your home-sharing personality</p>
         <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
@@ -65,34 +64,36 @@
             </div>
             <div class="col-sm-3"></div>
         </div>
-        <p class="mt-4">Brought to you by people who had bad roommates and vow to never again!</p>
+        <p class="mt-4" style="color:white;">Brought to you by people who had bad roommates and vow to never again!</p>
         <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Join Beta Now</a>
     </div>
 
     <!-- How It Works Section-->
-    <h1 class="text-center pb-4 main-title-text" id="how-it-works" style="margin-top: 80px;">How It Works</h1>
+    <h1 class="text-center pb-4 main-title-text" id="how-it-work" style="margin-top: 80px;">How It Works</h1>
     <div class="container">
         <div class="card-deck">
             <div class="card">
                 <h5 class="card-header">Step One</h5>
-                <img class="card-img-top" src="/assets/person-filling-up-form-laptop.jpg"
+                <img class="card-img-top" src="assets/person-filling-up-form-laptop.jpg"
                     alt="Person filling up a form on laptop">
                 <div class="card-body">
                     <h5 class="card-title">Fill up our priorietary questionnaire</h5>
-                    <p class="card-text">It takes around 10 to 15 minutes to fill the form. It help us match you to the right profiles</p>
+                    <p class="card-text">It takes around 10 to 15 minutes to fill the form. It help us match you to the
+                        right profiles</p>
                 </div>
             </div>
             <div class="card">
                 <h5 class="card-header">Step Two</h5>
-                <img class="card-img-top" src="/assets/list-individuals.jpg" alt="Person reviewing a list on the phone">
+                <img class="card-img-top" src="assets/list-individuals.jpg" alt="Person reviewing a list on the phone">
                 <div class="card-body">
                     <h5 class="card-title">Get a list of compatible individuals</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
                 </div>
             </div>
             <div class="card">
                 <h5 class="card-header">Step Three</h5>
-                <img class="card-img-top" src="/assets/video-call.jpg" alt="Video calling matched ">
+                <img class="card-img-top" src="assets/video-call.jpg" alt="Video calling matched ">
                 <div class="card-body">
                     <h5 class="card-title">Get connected for a chat only if both parties accept</h5>
                     <p class="card-text"> than the first to show that equal height action.</p>
@@ -104,7 +105,7 @@
     <!--Our Magic Sauce-->
 
     <div class="container" style="margin-top: 80px;">
-        <h1 class="text-center mt-5 main-title-text" id="why-it-works" >Why It Works</h1>
+        <h1 class="text-center mt-5 main-title-text" id="why-it-work">Why It Works</h1>
         <p class="text-center lead">We created the matching process after speaking with hundreds of roommates and
             identified potential issues that might occur. We help you to anticipate potential issues that might arise.
         </p>
@@ -112,20 +113,14 @@
             <div class="col-sm">
                 <i class="fa fa-list fa-5x" aria-hidden="true" style="color:#038C65"></i>
                 <h5 class="mt-3">Proprietary Matching Questionnaire</h5>
-                <div class="row text-center">
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-8">
-                        <p>We check for five key themes around living habits:</p>
-                        <ul class="paragraph" style="text-align: center; list-style-position: inside;">
-                            <li>Cleaning</li>
-                            <li>Privacy</li>
-                            <li>Use of Common Facilities</li>
-                            <li>Noise Tolerance</li>
-                            <li>Interests</li>
-                        </ul>
-
-                    </div>
-                    <div class="col-sm-2"></div>
+                <div class="text-center" style="padding: 0 30 0 30;">
+                    <p>We check for five key themes around living habits:</p>
+                    <p class="list-paragraph"><i class="fa fa-check px-2" aria-hidden="true"></i>Cleaning</p>
+                    <p class="list-paragraph"><i class="fa fa-check px-2" aria-hidden="true"></i>Privacy</p>
+                    <p class="list-paragraph"><i class="fa fa-check px-2" aria-hidden="true"></i>Common Facilities Usage
+                    </p>
+                    <p class="list-paragraph"><i class="fa fa-check px-2" aria-hidden="true"></i>Noise Tolerance</p>
+                    <p class="list-paragraph"><i class="fa fa-check px-2" aria-hidden="true"></i>Interests</p>
                 </div>
             </div>
             <div class="col-sm">
@@ -134,14 +129,13 @@
                 <div class="row text-center">
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8">
-                        <p>You will be given all the potential candidates that meets your renting schedule and
-                            compatibility match above 90%.</p>
-                        <ul class="paragraph" style="text-align: center; list-style-position: inside;">
-                            <li>Read Profiles</li>
-                            <li>Accept Matches & Start Chatting</li>
-                            <li>Use our Icebreaking Guide</li>
-                            <li>No Private information shared throughout the process</li>
-                        </ul>
+                        <p>You will be given all the potential candidates that meet your renting schedule and
+                            are >90% compatible.</p>
+                        <p class="list-paragraph"><i class="fa fa-check px-2" aria-hidden="true"></i>Get a list of potential candidates</p>
+                        <p class="list-paragraph"><i class="fa fa-check px-2" aria-hidden="true"></i>Review their profile</p>
+                        <p class="list-paragraph"><i class="fa fa-check px-2" aria-hidden="true"></i>Connect with those you want to chat with</p>
+                        <p class="list-paragraph"><i class="fa fa-check px-2" aria-hidden="true"></i>Use our ice breaker guide</p>
+                        <p class="list-paragraph"><i class="fa fa-check px-2" aria-hidden="true"></i>No private information exchanged</p>
 
                     </div>
                 </div>
@@ -157,7 +151,7 @@
                     <div class="col-sm-3"></div>
                     <div class="form-group col-sm-6">
                         <div>
-                            <label for="exampleInputEmail1 mt-4">Email address</label>
+                            <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
@@ -185,7 +179,14 @@
     </footer>
 
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.17.1/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
 
 </body>
 

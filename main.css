@@ -1,6 +1,11 @@
+.hero-section {
+    background-blend-mode: multiply;
+    background-color: rgb(101, 133, 34);
+    background-image: url("assets/background-photo-houses.jpg");
+    border-radius: 0;
+}
 
-
-.brand-logo {
+.brand-logo-home {
     font-family: 'Rowdies', cursive;
     color: #00351D;
 }
@@ -34,4 +39,8 @@ p {
 
 .btn-primary:hover {
     background-color: #0D0D0D;
+}
+
+.list-paragraph {
+    margin-bottom: 0.2rem;
 }
