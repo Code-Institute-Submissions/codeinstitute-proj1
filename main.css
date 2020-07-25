@@ -29,6 +29,7 @@ p {
 .btn-primary {
     background-color: #F22E52;
     border-width: 0px;
+    border-radius: 8px;
 }
 
 .btn-primary:hover {
