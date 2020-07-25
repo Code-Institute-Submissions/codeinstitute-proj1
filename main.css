@@ -1,3 +1,36 @@
-#how-it-works {
-    height: 200px;
+
+
+.brand-logo {
+    font-family: 'Rowdies', cursive;
+    color: #00351D;
+}
+
+.main-title-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #0D0D0D;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #0D0D0D;
+}
+
+.paragraph {
+    font-family: 'Raleway', sans-serif;
+    color: #0D0D0D;
+}
+
+.footer-main {
+    background-color: #01403A;
+    height: 100px;
+}
+
+.btn-primary {
+    background-color: #F22E52;
+    border-width: 0px;
+}
+
+.btn-primary:hover {
+    background-color: #0D0D0D;
 }
